@@ -9,7 +9,35 @@ header {
     border-radius: 15px;
     padding: 50px;
     margin: 20px;
-    overflow: auto; /* about-me text was displaying outside of the container in smaller windows */
+}
+#banner {
+    padding-bottom: 75px;
+    overflow: auto;
+}
+.nav-links {
+    table-layout: fixed;
+    width: 100%;
+    border-radius: 10px white;
+    margin: auto;
+    width: fit-content;
+    padding: 10px;
+}
+.nav-button {
+    background-color: darkslategray;
+    color: white;
+    border: solid white;
+    border-radius: 40px;
+    padding-inline: 60px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    height: 40px;
+}
+.nav-button:hover {
+    background-color: darkcyan;
+    color: white;
+    font-weight: bold;
+    border: solid white;
 }
 
 h1 {
@@ -26,7 +54,7 @@ h3 {
     font-size: 25px;
 }
 
-.subtitle {
+.subtitle { /* to be used underneath titles and headings for context */
     text-align: center;
     opacity: 0.8;
     height: 25px;
@@ -37,4 +65,16 @@ h3 {
 #about-me {
     padding-left: 20%;
     padding-right: 20%;
+}
+
+footer {
+    background-color: darkslategray;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height: 150px;
+    padding-top: 50px;
 }
